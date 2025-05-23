@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <title>Game Matematika Speedrunner</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container" id="game-container">
+    <div id="timer">Waktu: 0.000 detik</div>
+    <div class="question" id="questionText">Loading...</div>
+    <input type="number" id="answerInput" placeholder="Ketik jawabanmu..." autofocus />
+    <div id="feedback"></div>
+    <button id="submitAnswerBtn">Kirim</button>
+  </div>
+
+  <div class="container result-layout" id="result-container">
+    <div class="left-panel">
+      <h2>🎉 Selamat! Kamu Menyelesaikan Game!</h2>
+      <p id="speed-level"></p>
+      <button id="restartBtn">Main Lagi</button>
+    </div>
+    <div class="right-panel" id="summary"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
