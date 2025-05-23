@@ -61,10 +61,6 @@ button {
   border-radius: 6px;
 }
 
-button:hover {
-  background-color: rgb(201, 75, 0);
-}
-
 #timer {
   margin-bottom: 10px;
   font-weight: bold;
